@@ -1,0 +1,7 @@
+.editable:focus {
+  border: solid lightgray 1px;
+}
+
+.editable {
+  border: solid lightgray 0px;
+}

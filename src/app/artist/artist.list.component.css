@@ -1,0 +1,27 @@
+h2 {
+  background-color: rgb(92, 97, 116);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.15em;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+
+}
+
+.artist-container {
+  display: flex;
+}
+
+.artist-image {
+  border-radius: 50%;
+  margin-right: 1em;
+  border: solid rgb(230, 71, 89) 0.5em;
+}
+
+.albums {
+  padding-left: 1em;
+  flex-grow: 1;
+}

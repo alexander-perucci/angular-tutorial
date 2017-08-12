@@ -1,0 +1,43 @@
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif; 	
+  padding: 0.5em;
+}
+
+button {
+  color: rgb(25, 151, 198);
+  padding: 0.1em;
+  border: solid rgb(25, 151, 198) 1px;
+  background: none;
+  margin: 0.2em;
+}
+
+button:hover {
+  transition: all 0.2s ease-in-out;
+  color: rgb(25, 151, 198);
+  padding: 0.1em;
+  background: #fff;
+}
+
+/**:focus {*/
+  /*outline-color: rgb(230, 71, 89);*/
+/*}*/
+
+/*.is-component {*/
+  /*position: relative;*/
+  /*padding: 10px;*/
+  /*box-sizing: border-box;*/
+  /*background: rgba(155, 89, 182, 0.3);*/
+/*}*/
+

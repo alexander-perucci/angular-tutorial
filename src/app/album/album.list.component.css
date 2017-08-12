@@ -1,0 +1,13 @@
+h3 {
+  color: rgb(230, 71, 89);
+}
+
+h4 {
+  margin: 0;
+  padding-top: 0.25em;
+  border-radius: 0.15em;
+}
+
+li {
+  color: lightblue;
+}
