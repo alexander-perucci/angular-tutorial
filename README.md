@@ -1,5 +1,10 @@
 # Angular Tutorial EclipseCon Europe 2017
 
+## Exercise 1 Instructions
+
+Implement the `findByName` method in the in-memory repository (see `src/app/common` subfolder).
+Verify by running the tests via `ng test`.
+
 ## Preparations
 
 1. **Install Java 8 or higher**
