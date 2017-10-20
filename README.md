@@ -1,17 +1,9 @@
 # Angular Tutorial EclipseCon Europe 2017
 
-## Exercise 4 Instructions
+## Exercise 4 solution
 
-Finish implementation of `EditableTextComponent`
-* Replace {{track}} with the following in album.list.component.ts
-  ```
-    <app-editable-text [value]="track"
-   	                   (update)="onUpdate(album, $event)"
-    ></app-editable-text>
-  ```
-* Implement the submit method in editabletext.component.ts
-  * Look at consumer of event in AlbumListComponent#onUpdate to find out about required properties in event
-  * Use EventEmitter#emit in field `update` in EditableTextComponent
+This is the final state of the application. Congrats :)
+
 
 ## Preparations
 
@@ -46,7 +38,7 @@ Finish implementation of `EditableTextComponent`
 
    To make sure all participants use the same tooling, we provide already 
    configured Eclipse instances
-   [ready for download](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   [ready for download](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Pick the one suitable for your OS from the provided subfolders.
    Once the download is finished, extract the archive to a folder of your choice and start Eclipse
    If you are using a 32-bit OS, please let us know and we'll provide 32-bit versions as well. 
@@ -65,7 +57,7 @@ Finish implementation of `EditableTextComponent`
 
 7. **Download and import the first example**
 
-   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    This is an archive containing all code that is used throughout the tutorial 
    as separate Eclipse projects. Extract the archive to a folder of your choice. 
    Once finished, extract the `angular-tutorial-econ-2017-exercise-1.zip` and 
@@ -95,7 +87,7 @@ Finish implementation of `EditableTextComponent`
 
 9. **Download Slides**
 
-   Download the slides [from the Tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the slides [from the Tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Note that the slides are subject to change.
 
 ## Running

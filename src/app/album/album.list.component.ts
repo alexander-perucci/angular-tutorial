@@ -11,7 +11,10 @@ import { AlbumService } from '../album.service';
     <div *ngFor="let album of albums">
       <h4>{{album.name}}</h4>
       <div *ngFor="let track of album.tracks">
-        {{track}}
+        <app-editable-text
+          [value]="track"
+          (update)="onUpdate(album, $event)"
+        ></app-editable-text>
       </div>
     </div>
   `

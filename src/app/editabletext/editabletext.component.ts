@@ -40,7 +40,10 @@ export class EditableTextComponent implements OnChanges {
   }
 
   submit(input) {
-    // TODO: exercise 4
+    this.update.emit({
+      oldValue: this.value,
+      newValue: input.value
+    });
   }
 
   ngOnChanges(changes: SimpleChanges): void {
