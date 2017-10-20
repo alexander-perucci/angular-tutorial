@@ -51,6 +51,9 @@ export class InMemoryRepository<ENTITY extends CommonEntity> implements Reposito
   }
 
   findByName(name: string): ENTITY[] {
-    return [];
+    if (_.isEmpty(name)) {
+      return this.all();
+    }
+    return this.all().filter(e => e.name.indexOf(name) > -1);
   }
 }
