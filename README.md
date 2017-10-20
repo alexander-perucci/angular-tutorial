@@ -1,14 +1,17 @@
 # Angular Tutorial EclipseCon Europe 2017
 
-## Exercise 2 Instructions
+## Exercise 3 Instructions
 
-Write the `template` of the ArtistListComponent.
-Use an `ngFor` attribute in a `div` element and for each artist (via `filteredArtists`), emit
-* an `h2` element with the artist’s name (`<h2>some text</h2>`)
-* an `img` element that displays an artist’s image (<img [src]="someVar"/>)
+Add search functionality via the provided SearchBoxComponent.
 
-*Optional*: If done, use the already provided `AlbumListComponent` to also display a list 
-of albums for each artist. Find out about its usage on your own
+* The actual search component is already finished
+* Your job is to integrate it into our app, hence you need to
+  * register it as a component in app.module.ts
+  * find out about selector of SearchBoxComponent
+  * actually use the selector as tag in the template of app.component.html 
+  * and correctly pass on the current search term to the artist list component
+    define a ref on searchbox to make current search term accessible (e.g. #mySearch)
+    use ref as parameter for ArtistListComponent  ([searchTerm]=mySearch.searchTerm)
 
 ## Preparations
 
