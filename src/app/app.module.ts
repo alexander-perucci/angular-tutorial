@@ -14,7 +14,8 @@ import { EditableTextComponent } from './editabletext/editabletext.component';
         AppComponent,
         ArtistListComponent,
         AlbumListComponent,
-        EditableTextComponent
+        EditableTextComponent,
+        SearchBoxComponent
     ],
     imports: [
         BrowserModule

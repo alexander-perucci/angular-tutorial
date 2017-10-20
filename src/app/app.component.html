@@ -4,4 +4,5 @@
     Welcome to {{title}}!
   </h1>
 </div>
-<app-artist-list></app-artist-list>
+<app-searchbox #mySearch></app-searchbox>
+<app-artist-list [artistName]="mySearch.searchTerm"></app-artist-list>

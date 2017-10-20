@@ -1,17 +1,17 @@
 # Angular Tutorial EclipseCon Europe 2017
 
-## Exercise 3 Instructions
+## Exercise 4 Instructions
 
-Add search functionality via the provided SearchBoxComponent.
-
-* The actual search component is already finished
-* Your job is to integrate it into our app, hence you need to
-  * register it as a component in app.module.ts
-  * find out about selector of SearchBoxComponent
-  * actually use the selector as tag in the template of app.component.html 
-  * and correctly pass on the current search term to the artist list component
-    define a ref on searchbox to make current search term accessible (e.g. #mySearch)
-    use ref as parameter for ArtistListComponent  ([searchTerm]=mySearch.searchTerm)
+Finish implementation of `EditableTextComponent`
+* Replace {{track}} with the following in album.list.component.ts
+  ```
+    <app-editable-text [value]="track"
+   	                   (update)="onUpdate(album, $event)"
+    ></app-editable-text>
+  ```
+* Implement the submit method in editabletext.component.ts
+  * Look at consumer of event in AlbumListComponent#onUpdate to find out about required properties in event
+  * Use EventEmitter#emit in field `update` in EditableTextComponent
 
 ## Preparations
 
