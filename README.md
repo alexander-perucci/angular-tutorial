@@ -1,5 +1,10 @@
 # Angular Tutorial EclipseCon Europe 2017
 
+## Exercise 1 Instructions
+
+Implement the `findByName` method in the in-memory repository (see `src/app/common` subfolder).
+Verify by running the tests via `ng test`.
+
 ## Preparations
 
 1. **Install Java 8 or higher**
@@ -33,7 +38,7 @@
 
    To make sure all participants use the same tooling, we provide already 
    configured Eclipse instances
-   [ready for download](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   [ready for download](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Pick the one suitable for your OS from the provided subfolders.
    Once the download is finished, extract the archive to a folder of your choice and start Eclipse
    If you are using a 32-bit OS, please let us know and we'll provide 32-bit versions as well. 
@@ -52,7 +57,7 @@
 
 7. **Download and import the first example**
 
-   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    This is an archive containing all code that is used throughout the tutorial 
    as separate Eclipse projects. Extract the archive to a folder of your choice. 
    Once finished, extract the `angular-tutorial-econ-2017-exercise-1.zip` and 
@@ -82,7 +87,7 @@
 
 9. **Download Slides**
 
-   Download the slides [from the Tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the slides [from the Tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Note that the slides are subject to change.
 
 ## Running
