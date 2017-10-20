@@ -1,14 +1,18 @@
 # Angular Tutorial EclipseCon Europe 2017
 
-## Exercise 2 Instructions
+## Exercise 3 Instructions
 
-Write the `template` of the ArtistListComponent.
-Use an `ngFor` attribute in a `div` element and for each artist (via `filteredArtists`), emit
-* an `h2` element with the artist’s name (`<h2>some text</h2>`)
-* an `img` element that displays an artist’s image (<img [src]="someVar"/>)
+Add search functionality via the provided SearchBoxComponent.
 
-*Optional*: If done, use the already provided `AlbumListComponent` to also display a list 
-of albums for each artist. Find out about its usage on your own
+* The actual search component is already finished
+* Your job is to integrate it into our app, hence you need to
+  * register it as a component in `app.module.ts`
+  * find out about selector of SearchBoxComponent
+  * actually use the `selector` as tag in the template of `app.component.html` 
+  * and correctly pass on the current search term to the artist 
+    list component
+    * define a ref on searchbox to make current search term accessible (e.g. #mySearch)
+    * use ref as parameter for ArtistListComponent  (`[searchTerm]=mySearch.searchTerm`)
 
 ## Preparations
 
@@ -43,7 +47,7 @@ of albums for each artist. Find out about its usage on your own
 
    To make sure all participants use the same tooling, we provide already 
    configured Eclipse instances
-   [ready for download](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   [ready for download](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Pick the one suitable for your OS from the provided subfolders.
    Once the download is finished, extract the archive to a folder of your choice and start Eclipse
    If you are using a 32-bit OS, please let us know and we'll provide 32-bit versions as well. 
@@ -62,7 +66,7 @@ of albums for each artist. Find out about its usage on your own
 
 7. **Download and import the first example**
 
-   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the TutorialExamples.zip [from the tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    This is an archive containing all code that is used throughout the tutorial 
    as separate Eclipse projects. Extract the archive to a folder of your choice. 
    Once finished, extract the `angular-tutorial-econ-2017-exercise-1.zip` and 
@@ -92,7 +96,7 @@ of albums for each artist. Find out about its usage on your own
 
 9. **Download Slides**
 
-   Download the slides [from the Tutorial folder](https://drive.google.com/drive/folders/0BxhNvfHyeFJsX1U1LUJSVU0tSGs).
+   Download the slides [from the Tutorial folder](https://drive.google.com/open?id=0B0on8LO2mrLDQUpUaGMteTFERTg).
    Note that the slides are subject to change.
 
 ## Running

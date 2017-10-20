@@ -6,7 +6,14 @@ import {ArtistService} from '../artist.service';
   styleUrls: ['./artist.list.component.css'],
   selector: 'app-artist-list',
   template: `
-    TODO: exercise 2
+    <div *ngFor="let artist of filteredArtists">
+      <h2>{{artist.name}}</h2>
+      <div class="artist-container">
+        <img class="artist-image" [src]="artist.imagePath">
+        <app-album-list class="albums" [artistId]="artist.id">
+        </app-album-list>
+      </div>
+    </div>
   `
 })
 export class ArtistListComponent {
