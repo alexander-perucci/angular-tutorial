@@ -1,9 +1,14 @@
 # Angular Tutorial EclipseCon Europe 2017
 
-## Exercise 1 Instructions
+## Exercise 2 Instructions
 
-Implement the `findByName` method in the in-memory repository (see `src/app/common` subfolder).
-Verify by running the tests via `ng test`.
+Write the `template` of the ArtistListComponent.
+Use an `ngFor` attribute in a `div` element and for each artist (via `filteredArtists`), emit
+* an `h2` element with the artist’s name (`<h2>some text</h2>`)
+* an `img` element that displays an artist’s image (<img [src]="someVar"/>)
+
+*Optional*: If done, use the already provided `AlbumListComponent` to also display a list 
+of albums for each artist. Find out about its usage on your own
 
 ## Preparations
 
@@ -20,7 +25,7 @@ Verify by running the tests via `ng test`.
    for installing Node.js via a package manager). If you use the tarball for
    installing Node.js, follow the instructions [here](http://www.thegeekstuff.com/2015/10/install-nodejs-npm-linux/).
    Once you finished the installation you can verify it by opening up a terminal 
-   and typing `node -v`.
+                                                                                                                                                                                                                                                                                                                                                     and typing `node -v`.
 
 3. **Install Angular CLI**
 
